@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;BasicFramework73&apos;" deleteContents="false" description="Delete resource &apos;BasicFramework73&apos;" element1="/BasicFramework73" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1693245254579"/>&#x0A;<refactoring comment="Delete 7 resources" deleteContents="false" description="Delete 7 resources" element1="/CucumberProjectBatch71" element2="/JavaTraningSession" element3="/JunitProject73" element4="/MyMavenProject" element5="/Qa-automation" element6="/TestNGProject73" element7="/XLS_Project72" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="7" stamp="1693245269621"/>
+</session>
