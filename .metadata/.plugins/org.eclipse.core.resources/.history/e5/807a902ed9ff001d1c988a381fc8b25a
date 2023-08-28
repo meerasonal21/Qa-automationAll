@@ -1,0 +1,21 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FacebookLoginTest {
+
+	public static void main(String[] args) {
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com/");
+		
+		//Email
+		
+		//Option 1. - className 
+		driver.findElement(By.className("inputtext _55r1 _6luy")).sendKeys("hbjfjdsf");
+		
+
+	}
+
+}

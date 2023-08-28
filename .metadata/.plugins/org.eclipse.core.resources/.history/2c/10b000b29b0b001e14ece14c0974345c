@@ -1,0 +1,22 @@
+package selenium;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TDListTest {
+
+	public static void main(String[] args) {
+		
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://www.td.com/ca/en/personal-banking");
+		
+		
+		
+		
+		
+		
+		
+		////ul[@class='cmp-footer__links']/li
+	}
+
+}

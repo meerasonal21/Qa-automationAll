@@ -1,0 +1,29 @@
+package data;
+
+public class ReadWriteTextFile {
+
+	public static void main(String[] args) {
+		
+		//Write into Text file
+				FileWriter w = new FileWriter(f);
+				BufferedWriter out = new BufferedWriter(w);
+				
+				out.write("This is 1st Line");
+				out.newLine();
+				out.write("This is 2nd Line");
+				out.newLine();
+				out.write("This is 3rd Line");
+				out.newLine();
+				out.write("This is 4th Line");
+				out.newLine();
+				out.write("This is 5th Line");
+				out.flush();
+		
+		
+		
+		
+		
+
+	}
+
+}

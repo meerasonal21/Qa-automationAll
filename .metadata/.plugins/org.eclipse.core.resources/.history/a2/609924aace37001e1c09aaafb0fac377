@@ -1,0 +1,33 @@
+package com.crm.qa.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import com.crm.qa.base.TestBase;
+
+public class ContactsPage extends TestBase {
+
+	@FindBy(xpath = "//span[contains(@class,'selectable')]")
+	WebElement contactsLabel;
+	// Initializing the Page Objects:
+		public ContactsPage() {
+			PageFactory.initElements(driver, this);
+		}
+		
+		
+		public boolean verifyContactsLabel(){
+			return contactsLabel.isDisplayed();
+		}
+		
+
+        public void selectContactsByName(String name){
+		driver.findElement(By.xpath("//div[@class='ui fitted read-only checkbox']")).click();
+	}
+        public void selectMultipleContactsTest(String name){
+    		driver.findElement(By.xpath("//body/div[@id='ui']/div[@class='ui fluid container']/div[@class='ui fluid container']/div[@id='main-content']/div[contains(@class,'ui fluid container')]/div[@class='ui fluid container main-content']/div[@class='table-wrapper']/table[@class='ui celled definition sortable striped table custom-grid']/tbody/tr[2]/td[1]/div[1]/input[1]")).click(); 
+        }
+}

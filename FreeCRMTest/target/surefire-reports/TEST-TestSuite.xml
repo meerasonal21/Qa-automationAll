@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="160.172" tests="12" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest\target\test-classes;C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest\target\classes;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\vivek\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\vivek\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\vivek\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\vivek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\vivek\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\vivek\.m2\repository\net\masterthought\cucumber-reporting\5.0.2\cucumber-reporting-5.0.2.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\vivek\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\vivek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\vivek\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\vivek\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\vivek\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\vivek\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\vivek\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\vivek\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\vivek\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\vivek\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\vivek\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\vivek\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\vivek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vivek\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vivek\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vivek\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vivek\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vivek\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vivek\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vivek\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vivek\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vivek\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\vivek\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vivek\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vivek\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\vivek\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\vivek\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vivek\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vivek\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\vivek\.m2\repository\org\slf4j\slf4j-simple\1.6.4\slf4j-simple-1.6.4.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\vivek\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\vivek\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\vivek\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\vivek\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\vivek\.m2\repository\org\apache\poi\ooxml-schemas\1.0\ooxml-schemas-1.0.jar;C:\Users\vivek\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\vivek\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\vivek\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\vivek\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\vivek\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\vivek\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vivek\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vivek\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\vivek\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\vivek\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\vivek\AppData\Local\Temp\surefire8428127445084092139\surefirebooter554436777978091293.jar C:\Users\vivek\AppData\Local\Temp\surefire8428127445084092139 2023-08-24T16-21-34_661-jvmRun1 surefire582120040085305159tmp surefire_017942671326120798903tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest\target\test-classes;C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest\target\classes;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\vivek\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\vivek\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\vivek\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\vivek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vivek\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\vivek\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\vivek\.m2\repository\net\masterthought\cucumber-reporting\5.0.2\cucumber-reporting-5.0.2.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\vivek\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\vivek\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\vivek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\vivek\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\vivek\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\vivek\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\vivek\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\vivek\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\vivek\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\vivek\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\vivek\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\vivek\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\vivek\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\vivek\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vivek\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vivek\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vivek\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vivek\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vivek\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vivek\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vivek\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vivek\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vivek\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\vivek\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\vivek\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vivek\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vivek\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\vivek\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\vivek\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vivek\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vivek\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\vivek\.m2\repository\org\slf4j\slf4j-simple\1.6.4\slf4j-simple-1.6.4.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\vivek\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vivek\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\vivek\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\vivek\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\vivek\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\vivek\.m2\repository\org\apache\poi\poi-scratchpad\3.17\poi-scratchpad-3.17.jar;C:\Users\vivek\.m2\repository\org\apache\poi\ooxml-schemas\1.0\ooxml-schemas-1.0.jar;C:\Users\vivek\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\vivek\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\vivek\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\vivek\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\vivek\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\vivek\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vivek\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vivek\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\vivek\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\vivek\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vivek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-03-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vivek\AppData\Local\Temp\surefire8428127445084092139\surefirebooter554436777978091293.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20+36-2344"/>
+    <property name="user.name" value="vivek"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vivek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vivek\AppData\Local\Temp\"/>
+    <property name="java.version" value="20"/>
+    <property name="user.dir" value="C:\Users\vivek\Desktop\Java tutorial\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\vivek\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\vivek\Downloads\apache-ant-1.10.13\bin;C:\apache-ant-1.10.13\bin;C:\Program Files\Java\jdk-20\bin;C:\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Users\vivek\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\vivek\AppData\Local\Programs\Python\Python39\;C:\Users\vivek\AppData\Local\Microsoft\WindowsApps;C:\altera\15.0\modelsim_ase\win32aloem;C:\Users\vivek\AppData\Local\Microsoft\WindowsApps;C:\Users\vivek\AppData\Roaming\Dashlane\6.2021.0.35401\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\vivek\AppData\Roaming\Dashlane\6.2021.0.35401\ucrt;C:\Users\vivek\AppData\Roaming\Dashlane\6.2021.0.35401\bin\Qt;C:\Users\vivek\AppData\Roaming\Dashlane\6.2021.0.35401\ucrt;C:\Users\vivek\AppData\Roaming\Dashlane\6.2021.0.35401\bin\Ssl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20+36-2344"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.145"/>
+  <testcase name="selectContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.446"/>
+  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.851"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="1.974">
+    <failure message="element not interactable&#10;  (Session info: chrome=116.0.5845.98)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-6LCO0GB&apos;, ip: &apos;192.168.0.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1b8177935d4700650eea8d01b394cda2" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b8177935d4700650eea8d01b394cda2
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:97)
+</failure>
+    <system-out><![CDATA[Tom
+Peter
+Google
+David
+Chris
+Amazon
+Mukta
+Sharma
+Ebay
+Before navigating to: 'https://freecrm.com'
+Navigated to:'https://freecrm.com'
+Trying to find Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Found Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //button[contains(text(),'Create')]
+Found Element By : By.xpath: //button[contains(text(),'Create')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //button[contains(text(),'Create')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1b8177935d4700650eea8d01b394cda2)] -> xpath: //button[contains(text(),'Create')]]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.className: search
+Found Element By : By.className: search
+Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b8177935d4700650eea8d01b394cda2
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 38359
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692908547.257][WARNING]: This version of ChromeDriver has not been tested with Chrome version 116.
+Aug 24, 2023 4:22:28 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="1.893">
+    <failure message="element not interactable&#10;  (Session info: chrome=116.0.5845.98)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-6LCO0GB&apos;, ip: &apos;192.168.0.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d1bc04669fbb130e89c6c0faf10cae7" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1bc04669fbb130e89c6c0faf10cae7
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:97)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com'
+Navigated to:'https://freecrm.com'
+Trying to find Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Found Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //button[contains(text(),'Create')]
+Found Element By : By.xpath: //button[contains(text(),'Create')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //button[contains(text(),'Create')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9d1bc04669fbb130e89c6c0faf10cae7)] -> xpath: //button[contains(text(),'Create')]]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.className: search
+Found Element By : By.className: search
+Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d1bc04669fbb130e89c6c0faf10cae7
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 42906
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692908562.424][WARNING]: This version of ChromeDriver has not been tested with Chrome version 116.
+Aug 24, 2023 4:22:43 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="1.882">
+    <failure message="element not interactable&#10;  (Session info: chrome=116.0.5845.98)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-6LCO0GB&apos;, ip: &apos;192.168.0.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c5eca2e95853be2eaa8303d8801a9a1b" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5eca2e95853be2eaa8303d8801a9a1b
+	at com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(ContactsPageTest.java:97)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://freecrm.com'
+Navigated to:'https://freecrm.com'
+Trying to find Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Found Element By : By.xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //button[contains(text(),'Create')]
+Found Element By : By.xpath: //button[contains(text(),'Create')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //button[contains(text(),'Create')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c5eca2e95853be2eaa8303d8801a9a1b)] -> xpath: //button[contains(text(),'Create')]]
+Trying to find Element By : By.name: first_name
+Found Element By : By.name: first_name
+Trying to find Element By : By.name: last_name
+Found Element By : By.name: last_name
+Trying to find Element By : By.className: search
+Found Element By : By.className: search
+Exception occured: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.98)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6LCO0GB', ip: '192.168.0.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.98, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5eca2e95853be2eaa8303d8801a9a1b
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 115.0.5790.102 (90efd4b0ad6aa15eeafcdabd5817ae939f7ba059-refs/branch-heads/5790_90@{#9}) on port 43687
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692908577.537][WARNING]: This version of ChromeDriver has not been tested with Chrome version 116.
+Aug 24, 2023 4:22:58 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verfiyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.008"/>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="1.921"/>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.858"/>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.428"/>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.416"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="5.272"/>
+</testsuite>

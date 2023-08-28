@@ -1,0 +1,23 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
+public class AttributeTest {
+
+	public static void main(String[] args) {
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://www.ebay.ca/");
+
+		//String s =
+		//System.out.println();
+		
+		driver.findElement(By.name("_nkw")).click();
+	  
+		
+		
+	}
+
+}

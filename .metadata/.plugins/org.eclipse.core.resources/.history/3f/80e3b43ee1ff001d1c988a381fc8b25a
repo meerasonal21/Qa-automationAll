@@ -1,0 +1,13 @@
+package selenium;
+
+public class ScotiaBankLoginTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}

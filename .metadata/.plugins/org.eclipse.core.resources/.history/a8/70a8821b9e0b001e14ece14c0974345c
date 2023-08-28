@@ -1,0 +1,30 @@
+package selenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class NikeTest {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.nike.com/ca/");
+		
+		WebElement Men = driver.findElement(By.xpath("//a[@class='pre-desktop-menu-link headline-5 p3-lg pt4-sm d-sm-b no-outline'][contains(text(),'Men')]"));
+		Actions builder = new Actions(driver);
+		builder.moveToElement(Men).build().perform();
+		Thread.sleep(1500);
+		
+		List <WebElement> allOptions = driver.findElements(By.xpath("//div[@class='pre-menu-item is-static is-header headline']a"));
+		System.out.println(allOptions.size());
+		
+		for(int i=0; i<allOptions.size(); i++) {
+			System.out.println(allOptions.get(i).getText());
+
+	}
+	}
+}

@@ -1,0 +1,45 @@
+package selenium;
+
+public class FacebookLoginTest {
+
+	public static void main(String[] args) {
+		Firefoxdriver driver = new Firefoxdriver ();
+		driver.get("https://www.facebook.com/");
+		
+		//Email
+		//Option 1.- className - class attribute- can not use when we have space- not working 
+		//driver.findElement(By.className()).sendKeys();
+		
+		//Option 2. - cssSelector - Need to learn syntax
+		//driver.findElement(By.cssSelector(null)).sendKeys("fdgsdfgsdgsadfg");
+		
+		//Option 3. -id- id attribute - working 
+		//driver.findElement(By.id("email")).sendKeys();
+		
+		//Option 4. - linkText - linksonly
+		//driver.findElement(By.LinkText(null)).sendkeys();
+		
+		//Option 5. - name- name attribute
+		//driver.findElement(By.name ("email")),sendkeys();
+		
+		//option 6. - partialLinkTest - only for link
+		//driver.findElement(By.partiallinktext(null)),sendkeys();
+		
+		//Option 7 - tagName - not unique not first one 
+		//driver.findElement(By.tagName("input")).sendKeys();
+		
+		//Option 8. - xpath- need to learn syntex
+		//driver.findElement(By.xpath (null)).sendKeys();
+		
+		//PASSWORD
+	    //driver.findElement(By.name("pass")).sendKeys("sadgsdgsrdhrey");
+				
+		//Login
+	    //driver.findElement(By.tagName("button")).click();
+	
+		
+		
+
+	}
+
+}
